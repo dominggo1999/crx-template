@@ -6,8 +6,8 @@ import { sendMessage } from 'webext-bridge';
 export const Global = createGlobalStyle`
   #root{
     ${tw`
-      w-full 
-      h-full
+      w-[300px] 
+      h-[300px]
     `}
   }
 `;
